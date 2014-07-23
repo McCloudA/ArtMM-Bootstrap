@@ -1,0 +1,27 @@
+/* GALLERY
+ Center Photos in div's in gallery
+*****************************/
+.inner-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-padding {
+  padding: 20px 0;
+}
+
+/* SkinnyView Photo Padding 
+*****************************/
+
+@media only screen and (max-width: 992px) { 
+  .photo-padding {
+    margin-bottom: 20px;
+  }
+}
+
+/* Art Page Top Title Padding 
+*****************************/
+  .top-space-2 {
+     margin-top: 100px;
+  }

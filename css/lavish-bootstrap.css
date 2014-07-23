@@ -1,0 +1,28 @@
+.panel-primary {
+  border-color: #9b59b6;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #9b59b6;
+  border-color: #9b59b6;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #9b59b6;
+}
+.panel-primary > .panel-heading .badge {
+  color: #9b59b6;
+  background-color: #fff;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #9b59b6;
+}
+
+
+.panel-primary > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #9b59b6 0%, #9b59b6 100%);
+  background-image:      -o-linear-gradient(top, #9b59b6 0%, #9b59b6 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9b59b6), to(#9b59b6));
+  background-image:         linear-gradient(to bottom, #9b59b6 0%, #9b59b6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9b59b6', endColorstr='#ff9b59b6', GradientType=0);
+  background-repeat: repeat-x;
+}
